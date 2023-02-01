@@ -1,0 +1,124 @@
+body{
+    background-color: gray;
+}
+.fixer{
+    display:flex;
+    flex-flow:row wrap;
+    align-content:space-evenly;
+    justify-content:space-evenly;
+    border:8px solid red;
+    box-shadow: 6px 6px darkmagenta;
+    border-radius: 15px;
+    background-color: rgb(104, 224, 24);
+    color:brown;
+    position:fixed;
+    font-style: italic;
+    bottom:50px;
+    left:420px;
+    height:65px;
+    width:450px;
+    text-align: center;
+    z-index:1;
+}
+.box{
+    border:8px solid red;
+    box-shadow: 6px 6px darkmagenta;
+    border-radius: 15px;
+    background-color: white;
+    text-align: center;
+    text-shadow: 2px 2px 2px;
+    display: inline-block;
+}
+hr{
+    margin-top: 0.2%;
+}
+.box1{
+    height: 200px;
+    width:520px;
+    position:relative;
+    top:-3px;
+    left:400px;
+    color:brown;
+}
+.mainbox{
+    border:6px solid green;
+    width:99%;
+    height:750px;
+    margin-top:-4px;
+    position:relative;
+}
+.box2{
+    height:280px;
+    width:300px;
+    position:absolute;
+    left:2px;
+    color:darkmagenta;
+}
+.box3{
+    height:280px;
+    width:300px;
+    position:absolute;
+    background-image:url(./pic.jpg);
+    background-size: contain;
+    background-position:center;
+    background-repeat: no-repeat;
+    right:60px;
+    top:2px;
+}
+.box4{
+    height:300px;
+    width:300px;
+    position:absolute;
+    bottom:40px;
+    left:4px;
+    color:darkmagenta;
+}
+.box5{
+    height:300px;
+    width:300px;
+    position:absolute;
+    bottom:20px;
+    right:60px;
+    color:darkmagenta;
+}
+.inno{
+    text-align:center;
+}
+.subbut{
+    border-radius: 10px;
+    background-color: red;
+}
+.mainbox2{
+    display:inline-block;
+    border:6px solid darkmagenta;
+    width:800px;
+    height:610px;
+    background-color: green;
+    text-align: center;
+    position:relative;
+    top:15px;
+    left:250px;
+}
+.boxs{
+    display: inline-block;
+    background-color: khaki;
+    position:absolute;
+    border:2px solid gray;
+    font-style: italic;
+}
+.box6{
+    height:250px;
+    width:392px;
+    left:0px;
+}
+.box7{
+    height:250px;
+    width:392px;
+    right:0px;
+}
+.box8{
+    height:250px;
+    width:796px;
+    bottom:10px;
+    left:0px;
+}
